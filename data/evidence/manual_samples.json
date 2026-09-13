@@ -1,0 +1,19 @@
+{
+  "_comment": "Hand-encoded evidence for the 25 SAMPLE users only, used for the model-off ablation and the Phase 3 convention fit. Each entry cites its source. Never used for evaluation users; the runtime resolves evidence through the model layer.",
+  "user_02": [{"kind": "salary_amount", "target": "salary", "amount": "42750000", "effective_from": "2025-08-15", "source_id": "message_01"}],
+  "user_03": [{"kind": "amount", "target": "event_253", "amount": "4365000", "source_id": "image_01", "note": "payslip Aug-2019 net pay"}],
+  "user_05": [{"kind": "stream_ended", "target": "salary", "source_id": "ledger:event_390", "note": "Final employer payroll"}],
+  "user_08": [{"kind": "salary_amount", "target": "salary", "amount": "1422.85", "effective_from": "2025-02-15", "source_id": "message_06"}],
+  "user_10": [{"kind": "income_unconfirmed", "target": "all_income", "source_id": "message_07", "note": "QuickCrew payout pending, not withdrawable"}],
+  "user_11": [{"kind": "salary_amount", "target": "salary", "amount": "38760000", "effective_from": "2025-05-15", "source_id": "message_08"}],
+  "user_12": [{"kind": "stream_ended", "target": "all_income", "source_id": "message_09", "note": "seasonal contract ended"}],
+  "user_14": [{"kind": "salary_amount", "target": "salary", "amount": "2717", "effective_from": "2025-08-15", "source_id": "message_10"}],
+  "user_15": [{"kind": "new_income", "target": "salary", "amount": "1661", "effective_from": "2026-01-15", "source_id": "message_11"}],
+  "user_16": [
+    {"kind": "expense_multiplier", "target": "category:rent", "factor": "1.12", "source_id": "message_12"},
+    {"kind": "amount", "target": "event_1442", "amount": "100000", "source_id": "image_02", "note": "rent receipt balance due"}
+  ],
+  "user_17": [{"kind": "amount", "target": "event_1545", "amount": "41272", "source_id": "image_03"}],
+  "user_19": [{"kind": "amount", "target": "event_1700", "amount": "2854", "partial": true, "source_id": "image_04", "note": "cropped; item bill only"}],
+  "user_20": [{"kind": "amount", "target": "event_1786", "amount": "704.05", "source_id": "image_05"}]
+}

@@ -1,0 +1,24 @@
+# AGENTS.md §2: the chat transcript log is never committed
+log.txt
+
+# Secrets (read from environment only)
+.env
+
+# Model-call caches and run artifacts (regenerated; final caches are committed explicitly under data/cache/)
+.cache/
+data/scratch/
+output.subset.csv
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+
+# Submission artefact (rebuilt by code/package_submission.py)
+code.zip

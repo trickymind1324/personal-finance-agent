@@ -1,0 +1,281 @@
+{
+  "tag": "baseline",
+  "n": 25,
+  "excluded": [],
+  "metrics": {
+    "safe_exact": 0.16,
+    "safe_within_5pct": 0.28,
+    "safe_mean_err_pct": 24.833117583411806,
+    "status_acc": 0.32,
+    "method_acc": 0.44,
+    "plan_exact": 0.44,
+    "method_plan_both": 0.44,
+    "earliest_exact": 0.36,
+    "changes_exact": 0.88,
+    "changes_valid": 1.0,
+    "explanation_template": 1.0,
+    "explanation_consistent": 1.0,
+    "row_valid": 0.84,
+    "composite": 0.5266666666666666
+  },
+  "per_row": [
+    {
+      "request_id": "request_01",
+      "err_pct": 0.0,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_02",
+      "err_pct": 30.41,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": false,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_03",
+      "err_pct": 41.31,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": false,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_04",
+      "err_pct": 33.81,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": false,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_05",
+      "err_pct": 95.24,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": false,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_06",
+      "err_pct": 2.76,
+      "status_ok": false,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": false,
+      "changes_ok": false,
+      "violations": []
+    },
+    {
+      "request_id": "request_07",
+      "err_pct": 19.64,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": false,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_08",
+      "err_pct": 45.35,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": false,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_09",
+      "err_pct": 0.0,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_10",
+      "err_pct": 95.24,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": false,
+      "changes_ok": true,
+      "violations": [
+        "gate: full_payment not accepted by user"
+      ]
+    },
+    {
+      "request_id": "request_11",
+      "err_pct": 4.57,
+      "status_ok": false,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": false,
+      "changes_ok": false,
+      "violations": []
+    },
+    {
+      "request_id": "request_12",
+      "err_pct": 0.0,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": [
+        "gate: full_payment not accepted by user"
+      ]
+    },
+    {
+      "request_id": "request_13",
+      "err_pct": 53.97,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": false,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_14",
+      "err_pct": 20.94,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_15",
+      "err_pct": 13.22,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_16",
+      "err_pct": 0.0,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_17",
+      "err_pct": 11.2,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": false,
+      "changes_ok": true,
+      "violations": [
+        "gate: full_payment not accepted by user"
+      ]
+    },
+    {
+      "request_id": "request_18",
+      "err_pct": 19.22,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": false,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_19",
+      "err_pct": 27.33,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": false,
+      "changes_ok": true,
+      "violations": [
+        "gate: full_payment not accepted by user"
+      ]
+    },
+    {
+      "request_id": "request_20",
+      "err_pct": 10.77,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_21",
+      "err_pct": 1.97,
+      "status_ok": false,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": false,
+      "changes_ok": false,
+      "violations": []
+    },
+    {
+      "request_id": "request_22",
+      "err_pct": 21.46,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": false,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_23",
+      "err_pct": 41.58,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": false,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_24",
+      "err_pct": 18.82,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_25",
+      "err_pct": 12.0,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    }
+  ]
+}

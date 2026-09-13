@@ -1,0 +1,7 @@
+# Runtime for the offline reproduction: none beyond the Python 3.10+ standard library.
+# Optional, only for PAID runs that call the API (see README §0):
+anthropic>=0.40
+# Development / verification:
+pytest>=7
+ruff>=0.4
+mypy>=1.8

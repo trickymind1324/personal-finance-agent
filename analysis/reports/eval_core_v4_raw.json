@@ -1,0 +1,253 @@
+{
+  "tag": "core_v4_raw",
+  "n": 23,
+  "excluded": [],
+  "metrics": {
+    "safe_exact": 0.08695652173913043,
+    "safe_within_5pct": 0.6956521739130435,
+    "safe_mean_err_pct": 8.728079334437044,
+    "status_acc": 0.8260869565217391,
+    "method_acc": 0.8695652173913043,
+    "plan_exact": 0.8260869565217391,
+    "method_plan_both": 0.8260869565217391,
+    "earliest_exact": 0.8260869565217391,
+    "changes_exact": 0.8695652173913043,
+    "changes_valid": 1.0,
+    "explanation_template": 1.0,
+    "explanation_consistent": 1.0,
+    "row_valid": 1.0,
+    "composite": 0.7391304347826088
+  },
+  "per_row": [
+    {
+      "request_id": "request_01",
+      "err_pct": 0.0,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_02",
+      "err_pct": 1.98,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": false,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_03",
+      "err_pct": 2.33,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_04",
+      "err_pct": 16.86,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_05",
+      "err_pct": 4.76,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_06",
+      "err_pct": 8.59,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": true,
+      "changes_ok": false,
+      "violations": []
+    },
+    {
+      "request_id": "request_07",
+      "err_pct": 0.42,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_08",
+      "err_pct": 28.55,
+      "status_ok": false,
+      "method_ok": false,
+      "plan_ok": false,
+      "earliest_ok": false,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_09",
+      "err_pct": 0.0,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_10",
+      "err_pct": 95.24,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_11",
+      "err_pct": 1.85,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": false,
+      "changes_ok": false,
+      "violations": []
+    },
+    {
+      "request_id": "request_12",
+      "err_pct": 9.81,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_13",
+      "err_pct": 8.4,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_14",
+      "err_pct": 0.51,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_15",
+      "err_pct": 2.04,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_17",
+      "err_pct": 0.35,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_18",
+      "err_pct": 2.88,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_19",
+      "err_pct": 8.85,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": false,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_21",
+      "err_pct": 1.97,
+      "status_ok": false,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": false,
+      "changes_ok": false,
+      "violations": []
+    },
+    {
+      "request_id": "request_22",
+      "err_pct": 0.82,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_23",
+      "err_pct": 1.71,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_24",
+      "err_pct": 1.23,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    },
+    {
+      "request_id": "request_25",
+      "err_pct": 1.61,
+      "status_ok": true,
+      "method_ok": true,
+      "plan_ok": true,
+      "earliest_ok": true,
+      "changes_ok": true,
+      "violations": []
+    }
+  ]
+}

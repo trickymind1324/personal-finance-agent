@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "buyorwait"
+version = "0.1.0"
+description = "Deterministic financial affordability agent with a narrow multimodal evidence layer"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+model = ["anthropic>=0.40"]
+dev = ["pytest>=7", "ruff>=0.4", "mypy>=1.8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+src = ["src", "code", "tests", "exploration"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "N"]
+
+[tool.ruff.lint.pycodestyle]
+max-line-length = 140  # formatter wraps at 120; strings/regexes/docstrings may run to 140
+
+[tool.ruff.lint.per-file-ignores]
+"exploration/*" = ["E501", "B905"]  # read-only audit scripts outside the judged runtime path
+"tests/*" = ["E501"]                # verbatim ground-truth strings in parametrized cases
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+mypy_path = "src"
+packages = ["buyorwait"]
+
+[[tool.mypy.overrides]]
+module = "anthropic.*"
+ignore_missing_imports = true

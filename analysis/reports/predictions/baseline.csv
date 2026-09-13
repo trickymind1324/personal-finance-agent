@@ -1,0 +1,26 @@
+request_id,amount_safe_to_pay,affordability_status,recommended_payment_method,payment_plan,earliest_date_for_full_payment,spending_changes_needed,decision_explanation
+request_01,25256,affordable_now,full_payment,2024-03-03:25256,2024-03-03,none,"Pay ZAR 25,256 today. This leaves at least ZAR 18,000 available over the next 90 days."
+request_02,31225489.2,not_affordable,not_recommended,none,,none,"Do not make this payment by 10 October 2025. None of the available options keeps the IDR 29,158,400 minimum protected."
+request_03,3141600,not_affordable,not_recommended,none,,none,"Do not make this payment by 15 November 2019. None of the available options keeps the IDR 2,668,700 minimum protected."
+request_04,12693000,affordable_now,full_payment,2024-06-04:12693000,2024-06-04,none,"Pay IDR 12,693,000 today. This leaves at least IDR 30,686,600 available over the next 90 days."
+request_05,15488,affordable_now,full_payment,2025-11-06:15488,2025-11-06,none,"Pay ZAR 15,488 today. This leaves at least ZAR 13,100 available over the next 90 days."
+request_06,620.4,affordable_now,full_payment,2026-01-03:620.40,2026-01-03,none,Pay EUR 620.40 today. This leaves at least EUR 800 available over the next 90 days.
+request_07,125945.56,not_affordable,not_recommended,none,,none,"Do not make this payment by 14 November 2024. None of the available options keeps the INR 93,000 minimum protected."
+request_08,736.57,not_affordable,not_recommended,none,,none,Do not make this payment by 15 April 2025. None of the available options keeps the EUR 800 minimum protected.
+request_09,166.61,affordable_now,full_payment,2026-07-04:166.61,2026-07-04,none,Pay EUR 166.61 today. This leaves at least EUR 600 available over the next 90 days.
+request_10,266700,affordable_now,full_payment,2024-12-06:266700,2024-12-06,none,"Pay INR 266,700 today. This leaves at least INR 225,400 available over the next 90 days."
+request_11,13110000,affordable_now,full_payment,2025-05-03:13110000,2025-05-03,none,"Pay IDR 13,110,000 today. This leaves at least IDR 34,140,600 available over the next 90 days."
+request_12,65164,affordable_now,full_payment,2026-04-05:65164,2026-04-05,none,"Pay ZAR 65,164 today. This leaves at least ZAR 43,200 available over the next 90 days."
+request_13,941.6,affordable_now,full_payment,2024-03-07:941.60,2024-03-07,none,"Pay EUR 941.60 today. This leaves at least EUR 1,300 available over the next 90 days."
+request_14,1731.74,not_affordable,not_recommended,none,,none,"Do not make this payment by 4 October 2025. None of the available options keeps the EUR 2,200 minimum protected."
+request_15,570.05,not_affordable,not_recommended,none,,none,"Do not make this payment by 1 February 2026. None of the available options keeps the EUR 1,200 minimum protected."
+request_16,122500,affordable_now,full_payment,2023-08-12:122500,2023-08-12,none,"Pay INR 122,500 today. This leaves at least INR 122,400 available over the next 90 days."
+request_17,274600,affordable_now,full_payment,2026-03-01:274600,2026-03-01,none,"Pay INR 274,600 today. This leaves at least INR 166,100 available over the next 90 days."
+request_18,1086,not_affordable,not_recommended,none,,none,"Do not make this payment by 15 September 2026. None of the available options keeps the EUR 1,400 minimum protected."
+request_19,39660,affordable_now,full_payment,2024-09-04:39660,2024-09-04,none,"Pay INR 39,660 today. This leaves at least INR 92,800 available over the next 90 days."
+request_20,38109.05,not_affordable,not_recommended,none,,none,"Do not make this payment by 22 February 2026. None of the available options keeps the INR 64,500 minimum protected."
+request_21,1574.4,affordable_now,full_payment,2026-04-03:1574.40,2026-04-03,none,"Pay USD 1,574.40 today. This leaves at least USD 1,800 available over the next 90 days."
+request_22,632.46,not_affordable,not_recommended,none,,none,Do not make this payment by 10 February 2025. None of the available options keeps the EUR 500 minimum protected.
+request_23,24957.9,not_affordable,not_recommended,none,,none,"Do not make this payment by 15 July 2025. None of the available options keeps the ZAR 27,000 minimum protected."
+request_24,34045,not_affordable,not_recommended,none,,none,"Do not make this payment by 8 February 2026. None of the available options keeps the INR 51,000 minimum protected."
+request_25,8683950,not_affordable,not_recommended,none,,none,"Do not make this payment by 17 April 2024. None of the available options keeps the IDR 23,379,100 minimum protected."

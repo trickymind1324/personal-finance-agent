@@ -1,0 +1,19 @@
+{
+  "tag": "core_v6_model",
+  "metrics": {
+    "safe_exact": 0.12,
+    "safe_within_5pct": 0.84,
+    "safe_mean_err_pct": 3.1081869431988194,
+    "status_acc": 0.92,
+    "method_acc": 0.96,
+    "plan_exact": 0.92,
+    "method_plan_both": 0.92,
+    "earliest_exact": 0.88,
+    "changes_exact": 0.88,
+    "changes_valid": 1.0,
+    "explanation_template": 1.0,
+    "explanation_consistent": 1.0,
+    "row_valid": 1.0,
+    "composite": 0.7866666666666666
+  }
+}
